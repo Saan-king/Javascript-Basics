@@ -1,0 +1,15 @@
+// Write a function that takes a string (a) as argument
+// Extract the first half a
+// Return the result
+function myFunction(a)
+{
+if (a.length % 2 == 0) {
+return a.slice(0, a. length / 2);
+}
+}
+
+
+//Best Solution
+// function myFunction(a) {
+//     return a.slice(0, a.length / 2);
+//  }
